@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue';
+    font-weight: bolder;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.nav{
+    display: flex;
+    position: relative;
+    
+   
+}
+
+.logo{
+    position: relative;
+    top: 17px;
+    left: 17px;
+    padding-right: 15px;
+    
+    
+}
+ul  {
+list-style: none;
+display: flex;
+padding: 20px;
+padding-right:50% ;
+
+}
+ul li a{
+    padding: 10px;
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    font-size: 17px;
+}
+ul li a:hover{
+    color: hsl(0, 0%, 8%);
+}
+
+.login{
+    position: absolute;
+    right: 0;
+    padding: 30px;
+
+
+}
+.login .l1{
+    border: none;
+    background: none;
+    padding: 10px;
+    color: hsl(0, 0%, 41%);
+    width: 90px;
+    height: 50px;
+}
+.l2{
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    background: none;
+    color: hsl(0, 0%, 41%);
+}
+.l1:hover ,.l2:hover{
+    color: hsl(0, 0%, 8%);
+}
+
+.section{
+    padding: 20px;
+    
+}
+.section .text{
+    width: 400px;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+
+}
+.text h1{
+padding: 2px;
+line-height: 1px;
+font-size: 59px;
+font-family:'Epilogue' ;
+}
+
+.comp{
+    position: absolute;
+    top: 77%;
+    left: 6%;
+    
+}
+.comp svg{
+    padding: 15px;
+}
+.button{
+    position: absolute;
+    top: 54%;
+    left: 6%;
+    padding: 15px;
+}
+.button button{
+    width: 140px;
+    height: 50px;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 8%);
+    border-radius: 12px;
+}
+.photo{
+    width:700px;
+    height: 550px;
+    overflow:hidden;
+    position: absolute;
+    right: 6%;
+    object-fit: contain;
+}
+.photo img{
+    width: 500px;
+    height: 100%;
+    
+}
